@@ -6,7 +6,7 @@ If you are not subscribed, it's disgusted that there are some locked problems in
 
 - Install Tampermonkey plug-in in the browser.
 - Go to [openuserjs](https://openuserjs.org/users/00000H/scripts), and click installs button.
-- Or you can just create new user scripts in Tampermonkey step by step.
+- Or just create new user scripts in Tampermonkey step by step.
 
 # Demo
 
