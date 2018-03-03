@@ -11,14 +11,14 @@
 // ==/UserScript==
 
 $(document).ready(function() {
-    //设置每页显示所有题目，为了方便计数
+    // 设置每页显示所有题目，为了方便计数
     var itemsPerPage = localStorage["problem-list:itemsPerPage"];
     if (itemsPerPage != 9007199254740991) {
         localStorage["problem-list:itemsPerPage"] = 9007199254740991;
         location.reload();
     }
 
-    //延迟3s再执行，等待所有数据加载完毕
+    // 延迟 3s 再执行，等待所有数据加载完毕
     setTimeout(caculate, 3000);
 
     function caculate() {
@@ -29,17 +29,20 @@ $(document).ready(function() {
         changeCntContent(acCnt, allCnt - lockCnt);
         changetodoCntContent(allCnt - lockCnt - acCnt);
     }
+
     // 计算题目的总数量
     function caculateTotallCnt() {
         var content = getStatusBarContent();
         var totallCnt = content.split("/")[1];
         return totallCnt.substring(0, 3);
     }
+
     // 计算加锁题目的数量
     function caculateLcokCnt() {
         var lockItems = $(".fa-lock");
         return lockItems.length;
     }
+    
     // 计算通过的题目数量
     function caculateAcCnt() {
         var content = getStatusBarContent();
