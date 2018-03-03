@@ -11,6 +11,7 @@
 // ==/UserScript==
 
 $(document).ready(function() {
+    
     // 设置每页显示所有题目，为了方便计数
     var itemsPerPage = localStorage["problem-list:itemsPerPage"];
     if (itemsPerPage != 9007199254740991) {
@@ -42,7 +43,7 @@ $(document).ready(function() {
         var lockItems = $(".fa-lock");
         return lockItems.length;
     }
-    
+
     // 计算通过的题目数量
     function caculateAcCnt() {
         var content = getStatusBarContent();

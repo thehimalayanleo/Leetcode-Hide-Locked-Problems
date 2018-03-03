@@ -9,6 +9,7 @@
 // @license      MIT
 
 $(document).ready(function() {
+	
     // 延迟 3s 再执行，等待所有数据加载完毕
     setTimeout(hide, 3000);
 
