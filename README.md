@@ -10,14 +10,10 @@ If you are not subscribed, it's disgusted that there are some locked problems in
 
 # Demo
 
-## Before
-
 ![](https://github.com/CyC2018/Hide-Locked-Problems-In-Leetcode/blob/master/pics/1.png)
 
-![](https://github.com/CyC2018/Hide-Locked-Problems-In-Leetcode/blob/master/pics/2.png)
-
-## After
-
 ![](https://github.com/CyC2018/Hide-Locked-Problems-In-Leetcode/blob/master/pics/3.png)
+
+![](https://github.com/CyC2018/Hide-Locked-Problems-In-Leetcode/blob/master/pics/2.png)
 
 ![](https://github.com/CyC2018/Hide-Locked-Problems-In-Leetcode/blob/master/pics/4.png)
