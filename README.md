@@ -10,14 +10,22 @@ If you are not subscribed, it's disgusted that there are some locked problems in
 
 # Demo
 
-## Before
+## Hide Locked Problems
+
+### 1. Befor
 
 ![](https://github.com/CyC2018/Hide-Locked-Problems-In-Leetcode/blob/master/pics/1.png)
 
-![](https://github.com/CyC2018/Hide-Locked-Problems-In-Leetcode/blob/master/pics/2.png)
-
-## After
+### 2. After
 
 ![](https://github.com/CyC2018/Hide-Locked-Problems-In-Leetcode/blob/master/pics/3.png)
+
+## Recalculate Progress
+
+### 1. Befor
+
+![](https://github.com/CyC2018/Hide-Locked-Problems-In-Leetcode/blob/master/pics/2.png)
+
+### 2. After
 
 ![](https://github.com/CyC2018/Hide-Locked-Problems-In-Leetcode/blob/master/pics/4.png)
