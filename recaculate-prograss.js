@@ -35,7 +35,7 @@ $(document).ready(function() {
     function caculateTotallCnt() {
         var content = getStatusBarContent();
         var totallCnt = content.split("/")[1];
-        return totallCnt.substring(0, 3);
+        return totallCnt.substring(0, 5);
     }
 
     // 计算加锁题目的数量
